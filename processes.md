@@ -1,0 +1,6 @@
+- Every Process has a priority and niceness (nice value). nice value: -20 to 19, and priority value: 1 to 40.
+- Process with lesser priority value (it will also have lesser nice value) has higher priority. A higher priority value also translates to higher nice value, and less priority.
+- Priority and nice value can be checked using `top` command.
+- The priority can be changed using the command `nice` from terminal. A non-root user can only decrease the priority by increasing the niceness value.
+- To increase the priority, the command should be exected as root.
+- 
