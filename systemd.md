@@ -27,4 +27,7 @@ NOTE: To list units of a specific type `list-unit-files` can be used. For exampl
 - `/usr/lib/systemd/system/`: Unit files from the packages.
 - `/etc/systemd/system/`: Unit files manually created by users. Highest priority of parsing. The order of parsing is `/etc/`, `/run/`, `/lib/`. So any customizations of a unit file should be done in `/etc/`.
 
-- 
+## Unit Files:
+- A Unit file has 3 sections: [Unit], [Type], and [Install].
+
+
