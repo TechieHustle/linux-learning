@@ -1,0 +1,3 @@
+- Some useful commands:
+  - AWS: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
+  - Alibab: https://www.alibabacloud.com/help/en/elastic-compute-service/latest/resize-partitions-and-file-systems-of-linux-data-disks
