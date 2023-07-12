@@ -3,4 +3,12 @@
   - ip link set dummy0 up
   - ip addr add 169.254.255.254/31 dev dummy0
   - ip route add default via 169.254.255.255 dev dummy0 metric 1000
-  
+- Delete:
+  - ifconfig dummy down
+  - ip address del 192.168.2.31/24 dev eth0
+  - ip link delete dummy0
+- List/Describe:
+  - ifconfig
+  - ifconfig -a
+  - ip link
+  - route
